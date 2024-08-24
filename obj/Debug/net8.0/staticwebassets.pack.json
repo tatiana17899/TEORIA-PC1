@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\TEORIA-PC1.bundle.scp.css"
     },
     {
+      "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\css\\perfect-scrollbar.min.css",
+      "PackagePath": "staticwebassets\\css\\perfect-scrollbar.min.css"
+    },
+    {
       "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\img\\capibara.jpg",
+      "PackagePath": "staticwebassets\\img\\capibara.jpg"
     },
     {
       "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\js\\site.js",
