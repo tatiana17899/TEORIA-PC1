@@ -1,8 +1,31 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<head>
+    <link rel="stylesheet" href="~/css/welcome.css" asp-append-version="true" />
+</head>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="light">
+	<div class="container py-2">
+		<div class="h1 text-center text-dark" id="pageHeaderTitle">Bienvenido a Bolsa de Valores</div>
+
+		<article class="postcard light blue">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="~/img/valores.jpg" alt="Image Title" />
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title blue"><a href="#">Cierre de la bolsa de valores de 
+                    la India este 23 de agosto</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i> 24/08/2024
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">Jornada sin cambios para el BSE Sensex 30, que cerró el día del viernes 23 de agosto con una variación del 0,04%, hasta los 81.086,21 puntos. El BSE Sensex 30 anotó la cifra máxima de 81.231,49 puntos y un mínimo de 80.883,26 puntos. El rango de cotización para el BSE Sensex 30 entre su punto más alto y el más bajo
+                     (máximo-mínimo) durante este día se situó en el 0,43%. Teniendo en cuenta los últimos siete días, el BSE Sensex 30 registra un incremento del 0,81%%, por ello desde hace un año acumula aún un ascenso del 24,85%. El BSE Sensex 30 se sitúa un 0,95% por debajo de su máximo en lo que va de año (81.867,55 puntos) y un 15,23% por encima de su cotización
+                      mínima del año en curso (70.370,55 puntos).</div>
+			</div>
+		</article>
+	</div>
+</section>
