@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TEORIA-PC1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b9750d1bc6d20b3999c48323e84126e5961aa03")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+233b5aefe12861ec6e3075fb2c9030b0c1982b62")]
 [assembly: System.Reflection.AssemblyProductAttribute("TEORIA-PC1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TEORIA-PC1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
