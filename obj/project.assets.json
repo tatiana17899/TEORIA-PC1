@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\TEORIA-PC1\\TEORIA-PC1.csproj",
+      "projectUniqueName": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\TEORIA-PC1.csproj",
       "projectName": "TEORIA-PC1",
-      "projectPath": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\TEORIA-PC1\\TEORIA-PC1.csproj",
+      "projectPath": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\TEORIA-PC1.csproj",
       "packagesPath": "C:\\Users\\tatia\\.nuget\\packages\\",
-      "outputPath": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\TEORIA-PC1\\obj\\",
+      "outputPath": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tatia\\AppData\\Roaming\\NuGet\\NuGet.Config"
