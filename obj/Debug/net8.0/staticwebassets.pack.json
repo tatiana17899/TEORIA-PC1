@@ -5,18 +5,6 @@
       "PackagePath": "staticwebassets\\TEORIA-PC1.bundle.scp.css"
     },
     {
-      "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\css\\animate.css",
-      "PackagePath": "staticwebassets\\css\\animate.css"
-    },
-    {
-      "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\css\\azia.css",
-      "PackagePath": "staticwebassets\\css\\azia.css"
-    },
-    {
-      "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\css\\azia.min.css",
-      "PackagePath": "staticwebassets\\css\\azia.min.css"
-    },
-    {
       "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -41,24 +29,8 @@
       "PackagePath": "staticwebassets\\img\\valores.jpg"
     },
     {
-      "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\js\\azia.js",
-      "PackagePath": "staticwebassets\\js\\azia.js"
-    },
-    {
-      "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\js\\chart.flot.sampledata.js",
-      "PackagePath": "staticwebassets\\js\\chart.flot.sampledata.js"
-    },
-    {
-      "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\js\\cookie.js",
-      "PackagePath": "staticwebassets\\js\\cookie.js"
-    },
-    {
       "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\js\\dashboard.js",
       "PackagePath": "staticwebassets\\js\\dashboard.js"
-    },
-    {
-      "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\js\\dashboard.sampledata.js",
-      "PackagePath": "staticwebassets\\js\\dashboard.sampledata.js"
     },
     {
       "Id": "D:\\CARPETA TATIANA\\CURSOS UNIVERSIDAD\\6TO CICLO\\PROGRAMACIÓN 1\\PRACTICA1\\TEORIA-PC1\\wwwroot\\js\\site.js",
