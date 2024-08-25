@@ -1,0 +1,102 @@
+@model TEORIA_PC1.Models.Compra
+
+@{
+    ViewData["Title"] = "Operar en Bolsa";
+}
+
+<form asp-controller="Formulario" asp-action="Operar" method="post">
+    <div class="form-group">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" class="form-control" id="Nombre" asp-for="Nombre">
+    </div>
+    <div class="form-group">
+        <label   
+ for="Correo">Correo Electrónico:</label>
+        <input type="email" class="form-control" id="Correo"   
+ asp-for="Correo">
+    </div>
+    <div class="form-group">
+        <label for="FechaOperacion">Fecha de Operación:</label>
+        <input type="date" class="form-control" id="FechaOperacion" asp-for="FechaOperacion">
+    </div>
+    <div class="form-group">
+        <label for="MontoAbonar">Monto a Abonar:</label>
+        <input type="number" class="form-control" id="MontoAbonar" asp-for="MontoAbonar">
+    </div>
+    <div class="form-group">
+        <label>Instrumentos:</label>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="SP500" name="Instrumentos" value="S&P 500">
+            <label class="form-check-label" for="SP500">S&P 500</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="DowJones" name="Instrumentos" value="Dow Jones">
+            <label class="form-check-label" for="DowJones">Dow Jones</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="BonosUS" name="Instrumentos" value="Bonos US">
+            <label class="form-check-label" for="BonosUS">Bonos US</label>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Invertir</button>
+</form>
+
+<h2>Resumen de Compra</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Valor</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nombre</td>
+            <td>@Model.Nombre</td>
+        </tr>
+        <tr>
+            <td>Correo Electrónico</td>
+            <td>@Model.Correo</td>
+        </tr>
+        <tr>
+            <td>Fecha de Operación</td>
+            <td>@Model.FechaOperacion.ToString("dd/MM/yyyy")</td>
+        </tr>
+        <tr>
+            <td>Monto a Abonar</td>
+            <td>@Model.MontoAbonar.ToString("C")</td>
+        </tr>
+        <tr>
+            <td>Instrumentos</td>
+            <td>
+                @if (Model.Instrumentos != null && Model.Instrumentos.Any())
+                {
+                    <ul>
+                        @foreach (var instrumento in Model.Instrumentos)
+                        {
+                            <li>@instrumento</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <span>No seleccionó ningún instrumento</span>
+                }
+            </td>
+        </tr>
+        <tr>
+            <td>Comisión</td>
+            <td>@Model.Comision.ToString("C")</td>
+        </tr>
+        <tr>
+            <td>IGV</td>
+            <td>@Model.IGV.ToString("C")</td>
+        </tr>
+        <tr>
+            <td>Total a Pagar</td>
+            <td>@Model.TotalPagar.ToString("C")</td>
+        </tr>
+    </tbody>
+</table>
+

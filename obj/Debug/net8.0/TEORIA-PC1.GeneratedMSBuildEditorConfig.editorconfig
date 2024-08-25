@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\CARPETA TATIANA\CURSOS UNIVERSIDAD\6TO CICLO\PROGRAMACIÓN 1\PRACTICA1\TEORIA-PC1
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/CARPETA TATIANA/CURSOS UNIVERSIDAD/6TO CICLO/PROGRAMACIÓN 1/PRACTICA1/TEORIA-PC1/Views/Formulario/Operar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXVsYXJpb1xPcGVyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CARPETA TATIANA/CURSOS UNIVERSIDAD/6TO CICLO/PROGRAMACIÓN 1/PRACTICA1/TEORIA-PC1/Views/Home/Acerca.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2VyY2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
